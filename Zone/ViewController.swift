@@ -16,6 +16,8 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
+        Preferences.sharedInstance.getDeviceLocation()
+        
         mainLoader = HRLoader(frame: self.view.frame)
         mainLoader?.isMain()
         self.view.addSubview(mainLoader!)

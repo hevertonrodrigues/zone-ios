@@ -10,7 +10,11 @@ import UIKit
 import Foundation
 import CoreLocation
 
-let COLOR_1 :String = ""
+let COLOR_1 :String = "#3BCCCC"
+let COLOR_2 :String = "#80DBFF"
+let COLOR_3 :String = "#3D9971"
+let COLOR_4 :String = "#FFFFFF"
+
 private let baseURL :String = "https://"
 
 

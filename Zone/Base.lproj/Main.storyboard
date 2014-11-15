@@ -32,7 +32,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zone-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="JoX-03-n2W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zone-logo" translatesAutoresizingMaskIntoConstraints="NO" id="JoX-03-n2W">
                                 <rect key="frame" x="180" y="72" width="240" height="240"/>
                             </imageView>
                         </subviews>
@@ -65,7 +65,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" id="UGc-2s-jKQ"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="tabbar_icon_map" id="UGc-2s-jKQ"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1603" y="730"/>
@@ -99,16 +99,16 @@
                             <constraint firstItem="h3n-zU-2Qm" firstAttribute="top" secondItem="AY2-Zn-JCh" secondAttribute="bottom" constant="102" id="dOB-qz-JjH"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Chat" id="zWR-xE-jB7"/>
+                    <tabBarItem key="tabBarItem" title="Chat" image="tabbar_icon_chat" id="zWR-xE-jB7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z1r-2x-WQH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1603" y="-34"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar Controller-->
         <scene sceneID="hoY-al-GkN">
             <objects>
-                <tabBarController id="EYO-GV-Oec" sceneMemberID="viewController">
+                <tabBarController id="EYO-GV-Oec" customClass="CustomTabBarController" customModule="Zone" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="yOm-yt-D13">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -126,6 +126,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="zone-logo.png" width="240" height="240"/>
+        <image name="tabbar_icon_chat" width="48" height="32"/>
+        <image name="tabbar_icon_map" width="48" height="32"/>
+        <image name="zone-logo" width="240" height="240"/>
     </resources>
 </document>

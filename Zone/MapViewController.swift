@@ -19,7 +19,7 @@ class MapViewController: UIViewController//, TypesTableViewControllerDelegate
     super.viewDidLoad()
     
     var camera = GMSCameraPosition.cameraWithLatitude( Preferences.sharedInstance.getDeviceLocation().latitude,
-        longitude:Preferences.sharedInstance.getDeviceLocation().longitude, zoom:6)
+        longitude:Preferences.sharedInstance.getDeviceLocation().longitude, zoom:15)
     var mapView = GMSMapView.mapWithFrame(CGRectZero, camera:camera)
     mapView.mapType = kGMSTypeNormal
     

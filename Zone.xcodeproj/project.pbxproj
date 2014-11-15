@@ -25,6 +25,7 @@
 		0D9814E51A1786260076067A /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814E41A1786260076067A /* GooglePlace.swift */; };
 		0D9814E71A1788600076067A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814E61A1788600076067A /* MapViewController.swift */; };
 		0D9814EB1A1788D60076067A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814EA1A1788D60076067A /* UIViewExtension.swift */; };
+		0D9814ED1A17E4160076067A /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814EC1A17E4160076067A /* CustomTabBarController.swift */; };
 		0DCDBA361A14C356002AE40C /* HRExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA2E1A14C356002AE40C /* HRExtensions.swift */; };
 		0DCDBA371A14C356002AE40C /* HRLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA2F1A14C356002AE40C /* HRLoader.swift */; };
 		0DCDBA3A1A14C356002AE40C /* HRSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA321A14C356002AE40C /* HRSkill.swift */; };
@@ -68,6 +69,7 @@
 		0D9814E41A1786260076067A /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
 		0D9814E61A1788600076067A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0D9814EA1A1788D60076067A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0D9814EC1A17E4160076067A /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		0DCDBA2E1A14C356002AE40C /* HRExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRExtensions.swift; sourceTree = "<group>"; };
 		0DCDBA2F1A14C356002AE40C /* HRLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRLoader.swift; sourceTree = "<group>"; };
 		0DCDBA321A14C356002AE40C /* HRSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRSkill.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				0DCF4C361A124B45003AE8E1 /* ViewController.swift */,
 				0DD78F031A14CEBF0055B39B /* ChatRoom.swift */,
 				0D9814E61A1788600076067A /* MapViewController.swift */,
+				0D9814EC1A17E4160076067A /* CustomTabBarController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			files = (
 				0DCF4C371A124B45003AE8E1 /* ViewController.swift in Sources */,
 				0DCDBA361A14C356002AE40C /* HRExtensions.swift in Sources */,
+				0D9814ED1A17E4160076067A /* CustomTabBarController.swift in Sources */,
 				0DD78F041A14CEBF0055B39B /* ChatRoom.swift in Sources */,
 				0D9814E71A1788600076067A /* MapViewController.swift in Sources */,
 				0DD560F51A14CA9D0096C704 /* Preferences.swift in Sources */,
