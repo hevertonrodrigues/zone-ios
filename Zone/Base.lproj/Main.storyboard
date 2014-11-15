@@ -54,7 +54,6 @@
         <!--Map-->
         <scene sceneID="Bnr-3d-RdZ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pQG-gN-KYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="65L-bf-74l" customClass="MapViewController" customModule="Zone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7gZ-rc-JT7"/>
@@ -67,6 +66,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="tabbar_icon_map" id="UGc-2s-jKQ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQG-gN-KYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1603" y="730"/>
         </scene>
@@ -82,21 +82,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming Soon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3n-zU-2Qm">
-                                <rect key="frame" x="180" y="122" width="240" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="216-60-fxd"/>
-                                    <constraint firstAttribute="width" constant="240" id="8tf-Er-9JE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="UI4-gD-1yW">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.22352941179999999" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="h3n-zU-2Qm" secondAttribute="centerX" id="H8W-1T-xGd"/>
-                            <constraint firstItem="h3n-zU-2Qm" firstAttribute="top" secondItem="AY2-Zn-JCh" secondAttribute="bottom" constant="102" id="dOB-qz-JjH"/>
+                            <constraint firstItem="UI4-gD-1yW" firstAttribute="top" secondItem="Ydc-hc-fKI" secondAttribute="top" id="DHG-Kk-yCl"/>
+                            <constraint firstItem="UI4-gD-1yW" firstAttribute="leading" secondItem="Ydc-hc-fKI" secondAttribute="leading" id="Gbf-Tu-cSa"/>
+                            <constraint firstAttribute="trailing" secondItem="UI4-gD-1yW" secondAttribute="trailing" id="NKY-DS-wU2"/>
+                            <constraint firstItem="UI4-gD-1yW" firstAttribute="bottom" secondItem="52l-6B-Rd0" secondAttribute="top" id="l5L-KS-7RB"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Chat" image="tabbar_icon_chat" id="zWR-xE-jB7"/>
