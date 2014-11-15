@@ -54,30 +54,21 @@
         <!--Map-->
         <scene sceneID="Bnr-3d-RdZ">
             <objects>
-                <viewController id="65L-bf-74l" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQG-gN-KYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="65L-bf-74l" customClass="MapViewController" customModule="Zone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7gZ-rc-JT7"/>
                         <viewControllerLayoutGuide type="bottom" id="EAF-qt-6do"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EFF-46-0n6">
+                    <view key="view" contentMode="scaleToFill" id="EFF-46-0n6" customClass="GMSMapView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="map.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7Z5-Nn-eda">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="width" secondItem="7Z5-Nn-eda" secondAttribute="width" id="TOE-GM-oFa"/>
-                            <constraint firstAttribute="height" secondItem="7Z5-Nn-eda" secondAttribute="height" id="X0d-ma-lAr"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" id="UGc-2s-jKQ"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pQG-gN-KYS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1603" y="758"/>
+            <point key="canvasLocation" x="1603" y="730"/>
         </scene>
         <!--Chat-->
         <scene sceneID="qC3-Ut-aWT">
@@ -135,7 +126,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="map.jpg" width="369" height="810"/>
         <image name="zone-logo.png" width="240" height="240"/>
     </resources>
 </document>

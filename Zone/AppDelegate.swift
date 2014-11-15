@@ -15,13 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
 
     var window: UIWindow?
     
+    let googleMapsApiKey = "AIzaSyAW-31shy1_HthjuQEoRbMDU7-wtH0K0Vc"
+
+    
     // managedObject to interact with coredata
     let locationManager:CLLocationManager = CLLocationManager()
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
+    {
         
+        GMSServices.provideAPIKey(googleMapsApiKey)
         startCoreLocation()
+
         
         
         return true

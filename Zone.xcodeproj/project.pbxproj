@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DCDBA291A14C09E002AE40C /* zone-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA261A14C09E002AE40C /* zone-logo@2x.png */; };
-		0DCDBA2A1A14C09E002AE40C /* zone-logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA271A14C09E002AE40C /* zone-logo@3x.png */; };
-		0DCDBA2B1A14C09E002AE40C /* zone-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA281A14C09E002AE40C /* zone-logo.png */; };
+		0D9814C21A1782CF0076067A /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814C11A1782CF0076067A /* GoogleMaps.framework */; };
+		0D9814C51A1783280076067A /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D9814C41A1783280076067A /* GoogleMaps.bundle */; };
+		0D9814CA1A17848E0076067A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814C91A17848E0076067A /* AVFoundation.framework */; };
+		0D9814CC1A1784960076067A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814CB1A1784960076067A /* CoreData.framework */; };
+		0D9814CE1A17849E0076067A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814CD1A17849E0076067A /* CoreLocation.framework */; };
+		0D9814D01A1784A70076067A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814CF1A1784A70076067A /* CoreText.framework */; };
+		0D9814D21A1784AF0076067A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814D11A1784AF0076067A /* GLKit.framework */; };
+		0D9814D41A1784B80076067A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814D31A1784B80076067A /* ImageIO.framework */; };
+		0D9814D61A1784C20076067A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814D51A1784C20076067A /* OpenGLES.framework */; };
+		0D9814D81A1784CC0076067A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814D71A1784CC0076067A /* QuartzCore.framework */; };
+		0D9814DA1A1784D60076067A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814D91A1784D60076067A /* SystemConfiguration.framework */; };
+		0D9814DC1A1784E50076067A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814DB1A1784E50076067A /* libc++.dylib */; };
+		0D9814DE1A1784F20076067A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814DD1A1784F20076067A /* libicucore.dylib */; };
+		0D9814E01A1784FF0076067A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9814DF1A1784FF0076067A /* libz.dylib */; };
+		0D9814E21A1785F60076067A /* GoogleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814E11A1785F60076067A /* GoogleDataProvider.swift */; };
+		0D9814E51A1786260076067A /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814E41A1786260076067A /* GooglePlace.swift */; };
+		0D9814E71A1788600076067A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814E61A1788600076067A /* MapViewController.swift */; };
+		0D9814EB1A1788D60076067A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9814EA1A1788D60076067A /* UIViewExtension.swift */; };
 		0DCDBA361A14C356002AE40C /* HRExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA2E1A14C356002AE40C /* HRExtensions.swift */; };
 		0DCDBA371A14C356002AE40C /* HRLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA2F1A14C356002AE40C /* HRLoader.swift */; };
 		0DCDBA3A1A14C356002AE40C /* HRSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCDBA321A14C356002AE40C /* HRSkill.swift */; };
-		0DCDBA3B1A14C356002AE40C /* loader.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA331A14C356002AE40C /* loader.png */; };
-		0DCDBA3C1A14C356002AE40C /* loader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA341A14C356002AE40C /* loader@2x.png */; };
-		0DCDBA3D1A14C356002AE40C /* loader@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DCDBA351A14C356002AE40C /* loader@3x.png */; };
 		0DCF4C351A124B45003AE8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF4C341A124B45003AE8E1 /* AppDelegate.swift */; };
 		0DCF4C371A124B45003AE8E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF4C361A124B45003AE8E1 /* ViewController.swift */; };
 		0DCF4C3A1A124B45003AE8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCF4C381A124B45003AE8E1 /* Main.storyboard */; };
@@ -24,7 +36,6 @@
 		0DCF4C4B1A124B45003AE8E1 /* ZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCF4C4A1A124B45003AE8E1 /* ZoneTests.swift */; };
 		0DD560F51A14CA9D0096C704 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD560F41A14CA9D0096C704 /* Preferences.swift */; };
 		0DD78F041A14CEBF0055B39B /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD78F031A14CEBF0055B39B /* ChatRoom.swift */; };
-		0DD78F061A14CFC80055B39B /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD78F051A14CFC80055B39B /* map.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +49,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DCDBA261A14C09E002AE40C /* zone-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zone-logo@2x.png"; sourceTree = "<group>"; };
-		0DCDBA271A14C09E002AE40C /* zone-logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zone-logo@3x.png"; sourceTree = "<group>"; };
-		0DCDBA281A14C09E002AE40C /* zone-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zone-logo.png"; sourceTree = "<group>"; };
+		0D9814C11A1782CF0076067A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		0D9814C41A1783280076067A /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		0D9814C61A1784440076067A /* Zone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zone-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D9814C91A17848E0076067A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D9814CB1A1784960076067A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0D9814CD1A17849E0076067A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0D9814CF1A1784A70076067A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0D9814D11A1784AF0076067A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0D9814D31A1784B80076067A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0D9814D51A1784C20076067A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0D9814D71A1784CC0076067A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0D9814D91A1784D60076067A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0D9814DB1A1784E50076067A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0D9814DD1A1784F20076067A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0D9814DF1A1784FF0076067A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0D9814E11A1785F60076067A /* GoogleDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDataProvider.swift; sourceTree = "<group>"; };
+		0D9814E41A1786260076067A /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		0D9814E61A1788600076067A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0D9814EA1A1788D60076067A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		0DCDBA2E1A14C356002AE40C /* HRExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRExtensions.swift; sourceTree = "<group>"; };
 		0DCDBA2F1A14C356002AE40C /* HRLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRLoader.swift; sourceTree = "<group>"; };
 		0DCDBA321A14C356002AE40C /* HRSkill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HRSkill.swift; sourceTree = "<group>"; };
-		0DCDBA331A14C356002AE40C /* loader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader.png; sourceTree = "<group>"; };
-		0DCDBA341A14C356002AE40C /* loader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader@2x.png"; sourceTree = "<group>"; };
-		0DCDBA351A14C356002AE40C /* loader@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loader@3x.png"; sourceTree = "<group>"; };
 		0DCF4C2F1A124B45003AE8E1 /* Zone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DCF4C331A124B45003AE8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DCF4C341A124B45003AE8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +83,6 @@
 		0DCF4C4A1A124B45003AE8E1 /* ZoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneTests.swift; sourceTree = "<group>"; };
 		0DD560F41A14CA9D0096C704 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		0DD78F031A14CEBF0055B39B /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
-		0DD78F051A14CFC80055B39B /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +90,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9814E01A1784FF0076067A /* libz.dylib in Frameworks */,
+				0D9814DE1A1784F20076067A /* libicucore.dylib in Frameworks */,
+				0D9814DC1A1784E50076067A /* libc++.dylib in Frameworks */,
+				0D9814DA1A1784D60076067A /* SystemConfiguration.framework in Frameworks */,
+				0D9814D81A1784CC0076067A /* QuartzCore.framework in Frameworks */,
+				0D9814D61A1784C20076067A /* OpenGLES.framework in Frameworks */,
+				0D9814D41A1784B80076067A /* ImageIO.framework in Frameworks */,
+				0D9814D21A1784AF0076067A /* GLKit.framework in Frameworks */,
+				0D9814D01A1784A70076067A /* CoreText.framework in Frameworks */,
+				0D9814CE1A17849E0076067A /* CoreLocation.framework in Frameworks */,
+				0D9814CC1A1784960076067A /* CoreData.framework in Frameworks */,
+				0D9814CA1A17848E0076067A /* AVFoundation.framework in Frameworks */,
+				0D9814C21A1782CF0076067A /* GoogleMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +116,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9814C31A1782D40076067A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9814DF1A1784FF0076067A /* libz.dylib */,
+				0D9814DD1A1784F20076067A /* libicucore.dylib */,
+				0D9814DB1A1784E50076067A /* libc++.dylib */,
+				0D9814D91A1784D60076067A /* SystemConfiguration.framework */,
+				0D9814D71A1784CC0076067A /* QuartzCore.framework */,
+				0D9814D51A1784C20076067A /* OpenGLES.framework */,
+				0D9814D31A1784B80076067A /* ImageIO.framework */,
+				0D9814D11A1784AF0076067A /* GLKit.framework */,
+				0D9814CF1A1784A70076067A /* CoreText.framework */,
+				0D9814CD1A17849E0076067A /* CoreLocation.framework */,
+				0D9814CB1A1784960076067A /* CoreData.framework */,
+				0D9814C91A17848E0076067A /* AVFoundation.framework */,
+				0D9814C11A1782CF0076067A /* GoogleMaps.framework */,
+				0D9814C41A1783280076067A /* GoogleMaps.bundle */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D9814E31A1786020076067A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D9814E11A1785F60076067A /* GoogleDataProvider.swift */,
+				0D9814E41A1786260076067A /* GooglePlace.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		0DCDBA251A14B836002AE40C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				0DCF4C361A124B45003AE8E1 /* ViewController.swift */,
 				0DD78F031A14CEBF0055B39B /* ChatRoom.swift */,
+				0D9814E61A1788600076067A /* MapViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -100,13 +167,6 @@
 		0DCDBA2D1A14C0AA002AE40C /* img */ = {
 			isa = PBXGroup;
 			children = (
-				0DD78F051A14CFC80055B39B /* map.jpg */,
-				0DCDBA281A14C09E002AE40C /* zone-logo.png */,
-				0DCDBA261A14C09E002AE40C /* zone-logo@2x.png */,
-				0DCDBA271A14C09E002AE40C /* zone-logo@3x.png */,
-				0DCDBA331A14C356002AE40C /* loader.png */,
-				0DCDBA341A14C356002AE40C /* loader@2x.png */,
-				0DCDBA351A14C356002AE40C /* loader@3x.png */,
 			);
 			name = img;
 			sourceTree = "<group>";
@@ -118,6 +178,7 @@
 				0DCDBA2E1A14C356002AE40C /* HRExtensions.swift */,
 				0DCDBA2F1A14C356002AE40C /* HRLoader.swift */,
 				0DCDBA321A14C356002AE40C /* HRSkill.swift */,
+				0D9814EA1A1788D60076067A /* UIViewExtension.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -125,6 +186,7 @@
 		0DCF4C261A124B45003AE8E1 = {
 			isa = PBXGroup;
 			children = (
+				0D9814C31A1782D40076067A /* Frameworks */,
 				0DCF4C311A124B45003AE8E1 /* Zone */,
 				0DCF4C471A124B45003AE8E1 /* ZoneTests */,
 				0DCF4C301A124B45003AE8E1 /* Products */,
@@ -144,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				0DCF4C341A124B45003AE8E1 /* AppDelegate.swift */,
+				0D9814E31A1786020076067A /* Model */,
 				0DCDBA251A14B836002AE40C /* Controllers */,
 				0DCDBA3E1A14C36F002AE40C /* Util */,
 				0DCF4C381A124B45003AE8E1 /* Main.storyboard */,
@@ -159,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				0DCF4C331A124B45003AE8E1 /* Info.plist */,
+				0D9814C61A1784440076067A /* Zone-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -261,15 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DCF4C3A1A124B45003AE8E1 /* Main.storyboard in Resources */,
-				0DCDBA3C1A14C356002AE40C /* loader@2x.png in Resources */,
-				0DCDBA3B1A14C356002AE40C /* loader.png in Resources */,
+				0D9814C51A1783280076067A /* GoogleMaps.bundle in Resources */,
 				0DCF4C3F1A124B45003AE8E1 /* LaunchScreen.xib in Resources */,
-				0DD78F061A14CFC80055B39B /* map.jpg in Resources */,
-				0DCDBA2B1A14C09E002AE40C /* zone-logo.png in Resources */,
 				0DCF4C3C1A124B45003AE8E1 /* Images.xcassets in Resources */,
-				0DCDBA291A14C09E002AE40C /* zone-logo@2x.png in Resources */,
-				0DCDBA2A1A14C09E002AE40C /* zone-logo@3x.png in Resources */,
-				0DCDBA3D1A14C356002AE40C /* loader@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,10 +348,14 @@
 				0DCF4C371A124B45003AE8E1 /* ViewController.swift in Sources */,
 				0DCDBA361A14C356002AE40C /* HRExtensions.swift in Sources */,
 				0DD78F041A14CEBF0055B39B /* ChatRoom.swift in Sources */,
+				0D9814E71A1788600076067A /* MapViewController.swift in Sources */,
 				0DD560F51A14CA9D0096C704 /* Preferences.swift in Sources */,
+				0D9814EB1A1788D60076067A /* UIViewExtension.swift in Sources */,
 				0DCDBA3A1A14C356002AE40C /* HRSkill.swift in Sources */,
+				0D9814E21A1785F60076067A /* GoogleDataProvider.swift in Sources */,
 				0DCDBA371A14C356002AE40C /* HRLoader.swift in Sources */,
 				0DCF4C351A124B45003AE8E1 /* AppDelegate.swift in Sources */,
+				0D9814E51A1786260076067A /* GooglePlace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +478,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Zone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zone/Zone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -426,9 +496,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Zone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zone/Zone-Bridging-Header.h";
 			};
 			name = Release;
 		};
